@@ -1,0 +1,177 @@
+/*Desktop version code*/
+body{
+	background-image:url("https://render.fineartamerica.com/images/rendered/default/poster/8/4.5/break/images-medium-5/mont-blanc-chamonix-france-at-sunset-pierre-leclerc.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+ 
+}
+
+table{
+    border:3px solid black;
+    width:50%;
+    border-collapse:collapse;
+    position:absolute;
+    top:450px;
+    left:400px;
+	border-color:white;
+   }
+
+   td,th{
+     border:2px solid black;
+     padding:5px;
+	 color:white;
+	 font-weight:bold;
+    }
+
+   th{
+     background-color:lightgray;
+     text-align:center;
+	 color:black;
+    }
+
+ input{
+
+   width:382px;
+   height:45px;
+   font-size:15px;
+    border:2px solid #aaa;
+    border-radius:4px;
+    outline:none;
+    padding-right:250px;
+	margin-top:11px;
+}
+input:focus
+  {
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+  }
+
+.form
+{
+	 width: 400px;
+	 height:350px;
+	 background:rgba(0, 0, 0, 0.6);
+     color: #fff;
+     position:absolute;
+	 top:36%;
+	 left:52%;
+     transform:translate(-50%,-50%);
+     box-sizing: border-box;
+
+	 font-size:28px;
+	 padding:10px;
+	 color:red;
+}
+
+#submit-button{
+position:absolute;
+top:87%;
+left:39%;
+}
+
+
+#headername
+{
+    position: absolute;
+    top: 25%;
+    left:88%;
+    border:none;
+}
+
+
+
+
+#head{
+        position:absolute;
+        top:0px;
+        left:0px;
+	    right:0px;
+	    font-size:18px;
+        padding:5px;
+        background:rgba(0, 0, 0, 0.5);
+		text-align:center;
+	     
+}
+
+     p6{
+		float:left;
+	    margin-left:1%;
+		}
+		
+@media screen and (max-width: 5000px) {
+  h1::before{
+    content:"Welcome to the Registration Page";
+	color:White;
+  }
+}
+		
+/*Mobile version code*/
+
+@media screen and (max-width: 700px){
+	body{
+		background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSRRCcLrayF9-B5M9VHmZukL0TNdeNjHYJzczBAm64HROADSLZt&usqp=CAU");
+	    background-size: cover;
+        font-family: 'Numans', sans-serif;
+  
+	}
+}
+
+@media screen and (max-width: 700px) {
+	h1::before{
+		    content:"Welcome";
+			color:white;
+			position:absolute;
+			top:10px;
+			left:250px;
+			}
+			
+}
+
+@media screen and (max-width: 700px) {
+	#headername{
+		    position:absolute;
+			top:95px;
+			left:310px;
+			
+			}
+			
+}
+
+
+@media screen and (max-width: 700px) {
+	.form{
+		  width: 400px;
+	      height:350px;
+	      background:rgba(0, 0, 0, 0.6);
+          color: #fff;
+          position:absolute;
+	      top:60%;
+	      left:53%;
+          transform:translate(-50%,-50%);
+          box-sizing: border-box;
+
+          font-size:28px;
+	      padding:10px;
+	      color:red;
+		  }
+}
+
+@media screen and (max-width: 700px) {
+    table{
+		border:3px solid black;
+        border-collapse:collapse;
+        position:absolute;
+        top:620px;
+        left:110px;
+	    border-color:black;
+		}
+}
+@media screen and (max-width: 700px) {
+	td{
+		font-family:airal,sans-serif;
+		font-weight:Times New Roman;
+		color:black;
+	}
+}

@@ -1,0 +1,148 @@
+/*Desktop version code*/
+body {
+  background-image: url("https://blog.lunarlogic.io/images/auroral-with-stars.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: "Numans", sans-serif;
+}
+
+
+
+input {
+  width: 450px;
+  height: 50px;
+  font-size: 15px;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  outline: none;
+  margin-top: 10px;
+}
+
+input:focus {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+.form {
+  width: 500px;
+  height: 450px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  font-size: 28px;
+  padding: 25px;
+  padding-top:75px;
+  color: red;
+}
+
+#submit-button {
+  position: absolute;
+  top: 87%;
+  left: 39%;
+}
+
+#headername {
+  position: absolute;
+  top: 25%;
+  left: 88%;
+  border: none;
+}
+
+#head {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  font-size: 18px;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+h2{
+    color:yellow;
+    font-weight:bold;
+    position:absolute;
+    top:10px;
+    font-size:45px;
+}
+p6 {
+  float: left;
+  margin-left: 1%;
+}
+
+@media screen and (max-width: 5000px) {
+  h1::before {
+    content: "Welcome to the Registration Page";
+    color: White;
+  }
+}
+/*Mobile version code*/
+@media screen and (max-width: 700px) {
+  body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSRRCcLrayF9-B5M9VHmZukL0TNdeNjHYJzczBAm64HROADSLZt&usqp=CAU");
+    background-size: cover;
+    font-family: "Numans", sans-serif;
+  }
+}
+@media screen and (max-width: 700px) {
+  h1::before {
+    content: "Registration";
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 250px;
+    font-weight:bold;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  #headername {
+    position: absolute;
+    top: 95px;
+    left: 310px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .form {
+    width: 400px;
+    height: 450px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    font-size: 28px;
+    padding: 10px;
+    color: red;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  td {
+    font-family: airal, sans-serif;
+    font-weight: Times New Roman;
+    color: black;
+  }
+}
+
+@media screen and (max-width: 700px) {
+     input{
+      width: 380px;
+      height: 50px;
+      font-size: 15px;
+      border: 2px solid #aaa;
+      border-radius: 4px;
+      outline: none;
+      margin-top: 15px;
+    }
+}
+/*# sourceMappingURL=registration.css.map */

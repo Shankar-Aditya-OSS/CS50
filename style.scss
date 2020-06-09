@@ -1,0 +1,306 @@
+#background-image {
+  z-index: -1;
+}
+
+$color : #fff;
+
+#head {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  font-size: 18px;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.6);
+  color: $color;
+}
+
+#top1 {
+  position: absolute;
+  top: 2%;
+  left: 85%;
+}
+
+
+h1{
+  position: absolute;
+  top: 10%;
+  left: 27%;
+}
+
+p9{
+    text-align:center;
+    color:yellow;
+    font-size:38px;
+}
+
+a {
+  float: right;
+  margin-right: 35px;
+  font-size: 17px;
+}
+
+%message{
+
+    width: 700px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.5);
+    color: $color;
+    position: absolute;
+    top: 344px;
+    left: 790px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    font-size: 20px;
+    padding: 10px;
+    color: red;
+    }
+
+.container
+{
+    @extend %message;
+    width: 700px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.5);
+    color: $color;
+    position: absolute;
+    top:  50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    font-size: 40px;
+    padding: 10px;
+    color: red;
+}
+
+h3, h5 {
+  font-family: "Numans", sans-serif;
+  font-weight: italic;
+  color: #FFD700;
+  text-align: center;
+}
+
+h5 {
+  color: #FF4500;
+}
+
+p6 {
+  float: left;
+  margin-left: 60px;
+}
+
+#button1 {
+  position: absolute;
+  margin-left: 285px;
+  margin-top: 40px;
+  text-align: center;
+  border: none;
+}
+
+@media screen and (max-width: 5000px) {
+  h1::before{
+    content:"Welcome to the Registration Page";
+	color:White;
+  }
+}
+
+/*CSS FOR LOGIN PAGE*/
+#box {
+  @extend %message;
+  
+  padding-left: 10px;
+  padding-right: 410px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  width: 50px;
+  height: 480px;
+  position: absolute;
+  left: 52%;
+
+}
+
+input {
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  outline: none;
+  padding: 10px;
+  padding-right: 250px;
+  margin-top: 11px;
+  width:400px;
+  height:50px;
+}
+
+input:focus {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+h4 {
+  font-size: 34px;
+}
+
+#headername {
+  padding-top: 10px;
+  padding-right: 25px;
+  text-decoration: none;
+  float: right;
+}
+
+#head {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  font-size: 18px;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.5);
+  color: $color;
+}
+
+p6 {
+  float: left;
+  margin-left: 10px;
+}
+
+p3 {
+  color: white;
+  position: absolute;
+  top: 80%;
+  left:20%;
+}
+
+p4 {
+  position: absolute;
+  top: 87%;
+  left: 35%;
+}
+
+#button2 {
+  position: absolute;
+  top: 70%;
+  left: 42%;
+}
+
+/*CSS FOR SIGNUP PAGE*/
+.box {
+  padding-left: 10px;
+  padding-right: 450px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  width: 480px;
+  height: 510px;
+  background: rgba(0, 0, 0, 0.5);
+  color: $color;
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  color:yellow;
+}
+
+#button3 {
+  position: absolute;
+  top: 450px;
+  left: 190px;
+}
+
+p {
+  float: left;
+  margin-left: 60px;
+  font-weight: italic;
+  font-size: 20px;
+  padding-top: 7px;
+}
+
+/*mobile version for signup page*/
+@media screen and (max-width: 700px) {
+    .box{
+        padding-left: 10px;
+        padding-right: 450px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        width: 480px;
+        height: 510px;
+        background: rgba(0, 0, 0, 0.5);
+        color: $color;
+        position: absolute;
+        top: 345px;
+        left:245px;
+        transform: translate(-50%, -50%);
+        box-sizing: border-box;
+      }
+}
+/*mobile version for index page*/
+@media screen and (max-width: 700px){
+.container
+{
+    @extend %message;
+    width: 485px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.5);
+    color: $color;
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    font-size: 40px;
+    padding: 10px;
+    color: red;
+}
+}
+@media screen and (max-width: 700px) {
+	h1::before{
+		    content:"Welcome";
+			color:yellow;
+			position:absolute;
+			top:5px;
+			left:120px;
+			}
+			
+}
+
+@media screen and (max-width: 700px){
+#top1
+{
+    position: absolute;
+    top: 15%;
+    left:57%;
+    border:none;
+}
+}
+
+@media screen and (max-width: 700px){
+#button1 {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 21px;
+  text-align: center;
+  border: none;
+}
+}
+
+
+/*mobile version for login page*/
+@media screen and (max-width: 700px){
+#box {
+  @extend %message;
+  
+  padding-left: 10px;
+  padding-right: 410px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  width: 50px;
+  height: 480px;
+  position: absolute;
+  left: 260px;
+
+}
+}
+
+
+
+      
+        
